@@ -34,11 +34,11 @@ Analysis was then performed to answer the following questions:
 
 For this particular dataset, observe that all the reviews from refined dataframe (where helpful votes were made up at least half of the total votes) are from non-members of the Vine program.
 
-(pic of paid reviews)
+![paid_reviews](https://user-images.githubusercontent.com/71800628/128531886-3ba8750e-9da7-4591-8970-544d105ed2e8.png)
 
 The picture above shows that there is no data in the table filtered to have reviews from only Vine-members.
 
-(pic of unpaid reviews)
+![unpaid_reviews](https://user-images.githubusercontent.com/71800628/128531988-a355f381-ba89-434e-a005-c4118db67653.png)
 
 The picture above shows the reviews from non-members of Vine, or unpaid users.
 
@@ -46,7 +46,7 @@ The picture above shows the reviews from non-members of Vine, or unpaid users.
 
 The following analysis was performed, as shown in the picture below:
 
-(pic of 5 star reviews)
+![unpaid-5-star-reviews](https://user-images.githubusercontent.com/71800628/128532099-826589ff-6ee7-4e6d-9d8f-55a0cc693510.png)
 
 Observe that the total number of reviews of the refined dataframe (403,807) is equal to the total number of non-Vine reviews, confirming again that this particular dataset did not contain any reviews from Vine-members that may be considered helpful.
 
@@ -64,11 +64,11 @@ This could be because most of the books reviewed here may not have been sent to 
 
 An additional analysis was performed to support the above statement. The original dataset, as downloaded from the webite was filtered for reviews from Vine members (as seen in the pictures below) to see how many of the books were actually reviewed by Vine members.
 
-(pic of original table)
+![original_df](https://user-images.githubusercontent.com/71800628/128532154-24229a48-eca3-480d-bb94-463044c0f24e.png)
 
 The above is the first 20 rows of the dataframe created from the dataset originally obtained from amazon cloud services.
 
-(pic of check of vine member reviews)
+![check_for_vine_reviews](https://user-images.githubusercontent.com/71800628/128532206-64e149d1-a87b-4c3a-b847-0ff2f2415fc6.png)
 
 The above gives the total number of reviews from Vine-members.
 
