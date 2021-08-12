@@ -59,8 +59,9 @@ The 5-stars non-Vine reviews comprised 60.1% of the total reviews.\
 The non-Vine reviews comprised 0% of the total reviews. 
 
 ## Summary
-As this dataset contains helpful reviews from only users that are not members of the Vine program, it can be confidently stated that there is no positivity bias here for reviews from the Vine program.\
-This could be because most of the books reviewed here may not have been sent to Amazon Vine members.
+As this dataset contains helpful reviews from only users that are not members of the Vine program, we learn:
+- there are datasets from the Amazon's S3 cloud storage that may not have helpful reviews from Vine-members.
+- In this particular cases, the total number of reviews are large (greater than 400,000) out of which a majority i.e. 60% were 5-star reviews. Therefore it can be confidently stated that there is no positivity bias here for reviews from the Vine program.
 
 #### Provide one additional analysis that you could do with the dataset to support your statement.
 
