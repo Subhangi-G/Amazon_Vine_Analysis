@@ -61,7 +61,7 @@ The non-Vine reviews comprised 0% of the total reviews.
 ## Summary
 As this dataset contains helpful reviews from only users that are not members of the Vine program, we learn:
 - there are datasets from the Amazon's S3 cloud storage that may not have helpful reviews from Vine-members.
-- In this particular cases, the total number of reviews are large (greater than 400,000) out of which a majority i.e. 60% were 5-star reviews. Therefore it can be confidently stated that there is no positivity bias here for reviews from the Vine program.
+- In this particular case, the total number of reviews are large (greater than 400,000) out of which a majority i.e. 60% were 5-star reviews. Therefore it can be inferred that the possibility of bias for 5-star reviews from the Vine program is very low.
 
 #### Provide one additional analysis that you could do with the dataset to support your statement.
 
