@@ -59,8 +59,10 @@ The 5-stars non-Vine reviews comprised 60.1% of the total reviews.\
 The non-Vine reviews comprised 0% of the total reviews. 
 
 ## Summary
-As this dataset contains only reviews from users that are not members of the Vine program, it can be confidently stated that there is no positivity bias for reviews from the Vine program.\
+As this dataset contains helpful reviews from only users that are not members of the Vine program, it can be confidently stated that there is no positivity bias here for reviews from the Vine program.\
 This could be because most of the books reviewed here may not have been sent to Amazon Vine members.
+
+#### Provide one additional analysis that you could do with the dataset to support your statement.
 
 An additional analysis was performed to support the above statement. The original dataset, as downloaded from the webite was filtered for reviews from Vine members (as seen in the pictures below) to see how many of the books were actually reviewed by Vine members.
 
@@ -73,6 +75,11 @@ The above is the first 20 rows of the dataframe created from the dataset origina
 The above gives the total number of reviews from Vine-members.
 
 We note that there are only two reviews from Vine-members in the whole dataset. Moreover these two reviews had very low total votes (3 and 6), and therefore they were eliminated in the beginning when the dataset to be analysed was filtered to contain only those reviews that had 20 or more votes. 
+
+### Note:
+The dataset used in the above analysis is the one that was transformed into DataFrames, and loaded into tables in pgAdmin. I chose not to pick any other data set after analysis showed that it contained no helpful reviews from Amazon Vine members because one should be able to address any general question given any real world dataset in contrast to choosing datasets that align with the questions asked i.e. pick a dataset ,and then ask questions about it, rather than pick the questions, and then choose the datasets later.\
+However, if there were reviews from Amazon Vine members present here, then the process to determine presence of bias towards favorable reviews would be to calculate the number, and percentage of 5-star reviews from Amazon Vine members. Then compare this with the percentage of 5-star reviews from the non-members of the Vine program.\
+A further analysis would be to calculate the number, and percentage of bad reviews ( 2-stars or less) from members, and non-members of the Vine program, and check if they are  lower for Vine-members.
 
  
 
